@@ -79,11 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Squeebz
+                    Made with Love 4 U
                 </div>
 
                 <div class="quote">Magic is essentially the higher understanding of nature</div>
             </div>
-        </div>
+        </div>a
     </body>
 </html>

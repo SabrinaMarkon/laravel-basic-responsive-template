@@ -17,6 +17,13 @@ In PHP, anonymous functions are called "Closure". A Closure is a function that d
 We use Closure to handle "routing" in small applications. In large applications, we use Controllers.
 It's recommended that you should always use Controllers because Controllers help to structure your code easier. For instance, you may group all user actions into UserController, all post actions into PostsController.
 */
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'PagesController@home');
+
+Route::get('/about', 'PagesController@about');
+
+Route::get('/contact', 'PagesController@contact');
+
