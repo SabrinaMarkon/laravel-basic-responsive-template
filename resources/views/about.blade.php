@@ -9,25 +9,16 @@
         <script src="/js/app.js"></script>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
 
+        @include('navbar')
+
+        <div class="container">
             <div class="content">
                 <div class="title m-b-md">
                     About Page
                 </div>
-
                 <div class="quote">Magic is essentially the higher understanding of nature</div>
             </div>
-        </div>a
+        </div>
     </body>
 </html>
