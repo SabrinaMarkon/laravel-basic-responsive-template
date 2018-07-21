@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Made with Love 4 U
+                    Made with  <i class="icon ion-heart"></i> 4 U
                 </div>
 
                 <div class="quote">Magic is essentially the higher understanding of nature</div>
